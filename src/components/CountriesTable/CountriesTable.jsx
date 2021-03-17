@@ -4,7 +4,7 @@ import {
 } from '@material-ui/icons';
 import styles from './CountriesTable.module.css';
 import { useState } from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 const orderBy = (countries, value, direction) => {
 	if (direction === 'asc') {
